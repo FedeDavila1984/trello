@@ -18,9 +18,9 @@ window.TrelloPowerUp.initialize({
     },
 
     'card-buttons': function (t, opts) {
-        return t.card('idShort')
-            .then(function(card) {
-                console.log('Presionó el botón');
+        /*return t.card('idShort')
+            .then(function(card) {*/
+                //console.log('Presionó el botón');
 
                 return [{
                     // usually you will provide a callback function to be run on button click
@@ -37,6 +37,6 @@ window.TrelloPowerUp.initialize({
                     callback: onBtnClick,
                     condition: 'edit'
                 }];
-        });
+        //});
       }
 });
