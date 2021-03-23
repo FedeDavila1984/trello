@@ -5,7 +5,7 @@ var onBtnClick = function (t, opts) {
 };
 
 window.TrelloPowerUp.initialize({
-    'card-badges': function(t, opts) {
+    /*'card-badges': function(t, opts) {
         // return an array of card budges for the given card
         return t.card('all')
             .then(function(card) {
@@ -15,7 +15,7 @@ window.TrelloPowerUp.initialize({
                     text: card.idShort
                 }];
             });
-    },
+    },*/
 
     'card-buttons': function (t, opts) {
         /*return t.card('idShort')
