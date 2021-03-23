@@ -7,7 +7,7 @@ window.TrelloPowerUp.initialize({
                 console.log(card);
 
                 return [{
-                    text: card.idShort
+                    text: card.idShort + ' vence: ' + card.due
                 }];
             });
     }
