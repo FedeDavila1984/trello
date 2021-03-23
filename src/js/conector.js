@@ -7,7 +7,7 @@ window.TrelloPowerUp.initialize({
                 console.log(card);
 
                 return [{
-                    text: card.idShort + ' vence: ' + card.due
+                    text: '<a href="http://www.multiled.com.ar/' + card.idShort + '" target="_blank">' + card.idShort + ' vence: ' + card.due + '</a>'
                 }];
             });
     }
