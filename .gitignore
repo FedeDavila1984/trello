@@ -106,3 +106,5 @@ dist
 # PorcelJS
 dist/
 .cache/
+
+*.php
