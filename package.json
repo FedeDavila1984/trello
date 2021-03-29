@@ -6,7 +6,7 @@
   "author": "Fede Davila",
   "license": "FRD",
   "scripts": {
-    "build": "parcel build src/html/*.html src/js/*.js"
+    "build": "parcel build src/html/*.html src/html/*.php src/js/*.js"
   },
   "devDependencies": {
     "parcel-bundler": "^1.12.5"
